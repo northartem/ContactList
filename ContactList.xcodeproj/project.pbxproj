@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8845E16A2A45D9D6003A79FE /* ContactListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845E1692A45D9D6003A79FE /* ContactListApp.swift */; };
-		8845E16C2A45D9D6003A79FE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845E16B2A45D9D6003A79FE /* MainView.swift */; };
+		8845E16C2A45D9D6003A79FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845E16B2A45D9D6003A79FE /* ContentView.swift */; };
 		8845E16E2A45D9D8003A79FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8845E16D2A45D9D8003A79FE /* Assets.xcassets */; };
 		8845E1712A45D9D8003A79FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8845E1702A45D9D8003A79FE /* Preview Assets.xcassets */; };
 		8845E1782A45D9EB003A79FE /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845E1772A45D9EB003A79FE /* DataStore.swift */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		8845E1662A45D9D6003A79FE /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8845E1692A45D9D6003A79FE /* ContactListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListApp.swift; sourceTree = "<group>"; };
-		8845E16B2A45D9D6003A79FE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8845E16B2A45D9D6003A79FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8845E16D2A45D9D8003A79FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8845E1702A45D9D8003A79FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8845E1772A45D9EB003A79FE /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		888005FC2A472A8B00ED981D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8845E16B2A45D9D6003A79FE /* MainView.swift */,
+				8845E16B2A45D9D6003A79FE /* ContentView.swift */,
 				8845E17B2A45DAC6003A79FE /* ContactListView.swift */,
 				88FF55152A45ED850016A24F /* ContactInformationView.swift */,
 				8845E17D2A45DADC003A79FE /* PhoneNumbersView.swift */,
@@ -178,7 +178,7 @@
 			files = (
 				8845E17C2A45DAC6003A79FE /* ContactListView.swift in Sources */,
 				88FF55162A45ED850016A24F /* ContactInformationView.swift in Sources */,
-				8845E16C2A45D9D6003A79FE /* MainView.swift in Sources */,
+				8845E16C2A45D9D6003A79FE /* ContentView.swift in Sources */,
 				8845E1782A45D9EB003A79FE /* DataStore.swift in Sources */,
 				8845E17E2A45DADC003A79FE /* PhoneNumbersView.swift in Sources */,
 				8845E17A2A45DA09003A79FE /* Person.swift in Sources */,

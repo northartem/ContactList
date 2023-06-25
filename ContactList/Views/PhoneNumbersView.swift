@@ -9,16 +9,14 @@ import SwiftUI
 
 struct PhoneNumbersView: View {
     
-    let persons = Person.getInfoAboutPersons()
+    let persons: [Person]
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(persons) { person in
-                    Section(person.fullName) {
-                        Label(person.phone, systemImage: "phone")
-                        Label(person.email, systemImage: "tray")
-                    }
+            List(persons) { person in
+                Section(person.fullName) {
+                    Label(person.phone, systemImage: "phone")
+                    Label(person.email, systemImage: "tray")
                 }
             }
             .listStyle(.inset)
@@ -29,6 +27,6 @@ struct PhoneNumbersView: View {
 
 struct ContactListWithInfoView_Previews: PreviewProvider {
     static var previews: some View {
-        PhoneNumbersView()
+        PhoneNumbersView(persons: Person.getInfoAboutPersons())
     }
 }
